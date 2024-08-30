@@ -1,0 +1,14 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "exclude-paths": ["src"]
+    },
+    "src/simple": {
+      "release-type": "simple"
+    },
+    "src/dotnet": {
+      "release-type": "simple"
+    }
+  }
+}
