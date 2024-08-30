@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/renebentes/release-please/compare/v1.0.0...v1.1.0) (2024-08-30)
+
+
+### Features
+
+* **.NET:** adiciona novo arquivo ([4bd15cd](https://github.com/renebentes/release-please/commit/4bd15cd9e7d3520ad18869b377ae77e3688d945d))
+* **.NET:** define projeto base ([d5c768d](https://github.com/renebentes/release-please/commit/d5c768d302ea4b9d91333c9cd819f65338a4d390))
+
+
+### Bug Fixes
+
+* **.NET:** corrige nome de arquivo ([f47cf6f](https://github.com/renebentes/release-please/commit/f47cf6f2cb088892be5b8c05d6fa85b80fd66ad7))
+
 ## 1.0.0 (2024-08-30)
 
 
