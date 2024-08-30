@@ -1,6 +1,6 @@
 ﻿namespace MyLib;
 
-public class Class1
+public class MeuTipo
 {
 
 }
