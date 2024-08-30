@@ -30,7 +30,7 @@ Copyright (c) 2024 Rene Bentes Pinto
 
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-[repo]: http://github.com/renebentes/repository
+[repo]: http://github.com/renebentes/release-please
 [issues]: ../../issues
 [pulls]: ../../pulls
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
