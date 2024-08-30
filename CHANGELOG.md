@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/renebentes/release-please/compare/v1.1.0...v1.2.0) (2024-08-30)
+
+
+### Features
+
+* **skip ci:** impede execução desnecessária de action ([8e8d800](https://github.com/renebentes/release-please/commit/8e8d8006863cf71b6c1de491a31be05646be0b3c))
+
 ## [1.1.0](https://github.com/renebentes/release-please/compare/v1.0.0...v1.1.0) (2024-08-30)
 
 
