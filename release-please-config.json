@@ -12,7 +12,7 @@
       "release-type": "simple"
     },
     "src/dotnet": {
-      "release-type": "dotnet"
+      "release-type": "simple"
     }
   }
 }
