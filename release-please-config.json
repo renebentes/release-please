@@ -12,7 +12,8 @@
       "release-type": "simple"
     },
     "src/dotnet": {
-      "release-type": "simple"
+      "release-type": "simple",
+      "extra-files": ["MyLib/MyLib.csproj"]
     }
   }
 }
