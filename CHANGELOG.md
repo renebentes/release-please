@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/renebentes/release-please/compare/v1.2.0...v1.3.0) (2024-09-02)
+
+
+### Features
+
+* **release-please:** altera título do PR para múltiplos projetos ([be8157c](https://github.com/renebentes/release-please/commit/be8157c31b10e48e431696b47cc428452e6ee216))
+
 ## [1.2.0](https://github.com/renebentes/release-please/compare/v1.1.0...v1.2.0) (2024-08-30)
 
 
