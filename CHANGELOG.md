@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/renebentes/release-please/compare/v1.4.0...v1.5.0) (2024-09-03)
+
+
+### Features
+
+* altera título do PR ([5903fcc](https://github.com/renebentes/release-please/commit/5903fcc917ce7ae6e0190e9026f4861daceeb30c))
+
 ## [1.4.0](https://github.com/renebentes/release-please/compare/v1.3.0...v1.4.0) (2024-09-03)
 
 
