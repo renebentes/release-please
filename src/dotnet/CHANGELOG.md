@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/renebentes/release-please/compare/v1.1.0...v1.2.0) (2024-09-03)
+
+
+### Features
+
+* **dotnet:** adiciona propriedade NovoTipo ([05e3e5f](https://github.com/renebentes/release-please/commit/05e3e5ff482df6fd76c2ca1a6fcf422eca4ecc15))
+
 ## [1.1.0](https://github.com/renebentes/release-please/compare/v1.0.0...v1.1.0) (2024-08-30)
 
 
