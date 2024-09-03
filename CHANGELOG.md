@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/renebentes/release-please/compare/v1.5.0...v1.6.0) (2024-09-03)
+
+
+### Features
+
+* altera título do PR para componentes ([21c75cb](https://github.com/renebentes/release-please/commit/21c75cb6175bb11894d016f59d721cf2ea3b8e80))
+
 ## [1.5.0](https://github.com/renebentes/release-please/compare/v1.4.0...v1.5.0) (2024-09-03)
 
 
