@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/renebentes/release-please/compare/v1.0.1...v1.0.2) (2026-03-27)
+
+
+### Bug Fixes
+
+* avalie se a release foi criada ([#8](https://github.com/renebentes/release-please/issues/8)) ([d895f70](https://github.com/renebentes/release-please/commit/d895f700b8e9e18c132170668716e0b961858297))
+
 ## [1.0.1](https://github.com/renebentes/release-please/compare/v1.0.0...v1.0.1) (2026-03-27)
 
 
