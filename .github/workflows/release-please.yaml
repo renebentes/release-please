@@ -25,7 +25,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - if: ${{ steps.release.outputs.release_created }}
+      - if: ${{ steps.release.outputs['src/joomla--release_created'] == 'true' }}
         run: |
           echo '${{ toJson(steps.release.outputs) }}'
         env:
