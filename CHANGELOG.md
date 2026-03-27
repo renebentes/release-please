@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/renebentes/release-please/compare/v1.2.0...v1.2.1) (2026-03-27)
+
+
+### Bug Fixes
+
+* adicione a propriedade component ([#17](https://github.com/renebentes/release-please/issues/17)) ([09b0793](https://github.com/renebentes/release-please/commit/09b0793d84174f6c455bf2918632c7c057f2bed0))
+
 ## [1.2.0](https://github.com/renebentes/release-please/compare/v1.1.0...v1.2.0) (2026-03-27)
 
 
