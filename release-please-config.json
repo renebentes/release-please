@@ -6,6 +6,7 @@
       "exclude-paths": ["src/joomla"]
     },
     "src/joomla": {
+      "component": "Joomla",
       "release-type": "php"
     }
   }
