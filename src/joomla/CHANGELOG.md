@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/renebentes/release-please/compare/v1.1.1...v1.2.0) (2026-03-27)
+
+
+### Features
+
+* **joomla:** altere a forma de avaliar se foi criado release ([#12](https://github.com/renebentes/release-please/issues/12)) ([62442ea](https://github.com/renebentes/release-please/commit/62442ea09c65841a351e4055eef2d6419ab90dab))
+
 ## [1.1.1](https://github.com/renebentes/release-please/compare/v1.1.0...v1.1.1) (2026-03-27)
 
 
