@@ -14,3 +14,5 @@
 use Joomla\Test\Version;
 
 $version = new Version();
+
+echo $version->getFullVersion();
