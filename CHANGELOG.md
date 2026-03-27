@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/renebentes/release-please/compare/v1.0.0...v1.0.1) (2026-03-27)
+
+
+### Bug Fixes
+
+* **action:** corrija exibição do json ([#6](https://github.com/renebentes/release-please/issues/6)) ([1402d31](https://github.com/renebentes/release-please/commit/1402d31c76aa487d59d160a0fc5cea35520f9ac9))
+
 ## 1.0.0 (2026-03-27)
 
 
