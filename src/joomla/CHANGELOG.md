@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.4.0](https://github.com/renebentes/release-please/compare/v1.3.0...v1.4.0) (2026-03-27)
+
+
+### Features
+
+* **joomla:** altere a forma de avaliar se foi criado release ([#12](https://github.com/renebentes/release-please/issues/12)) ([62442ea](https://github.com/renebentes/release-please/commit/62442ea09c65841a351e4055eef2d6419ab90dab))
+* **jooml:** exiba a versão ([#4](https://github.com/renebentes/release-please/issues/4)) ([a5a051d](https://github.com/renebentes/release-please/commit/a5a051dc736e76f8a776508957cdae530ada5066))
+* **php:** adicione projeto exemplo ([#2](https://github.com/renebentes/release-please/issues/2)) ([e59387f](https://github.com/renebentes/release-please/commit/e59387fee29caf4b96a609cb3a3b2f757fb32f21))
+
+
+### Bug Fixes
+
+* force a geração de release ([#14](https://github.com/renebentes/release-please/issues/14)) ([f685e44](https://github.com/renebentes/release-please/commit/f685e441bc5cd676dd7c182c617dbab8f683eef1))
+* **joomla:** mova script de build para projeto ([#10](https://github.com/renebentes/release-please/issues/10)) ([389a5db](https://github.com/renebentes/release-please/commit/389a5db9b209fe388494b37cc18b7599b1992f31))
+
+
+### Miscellaneous Chores
+
+* release main ([#11](https://github.com/renebentes/release-please/issues/11)) ([bac083b](https://github.com/renebentes/release-please/commit/bac083b28878c69a969141b5e6e307a69365fd3c))
+* release main ([#13](https://github.com/renebentes/release-please/issues/13)) ([c2c4a07](https://github.com/renebentes/release-please/commit/c2c4a07a748c2a08fba6de2f3b870aa03a719c10))
+* release main ([#15](https://github.com/renebentes/release-please/issues/15)) ([bf7d632](https://github.com/renebentes/release-please/commit/bf7d632f5005b8e90be76f3b33791f17fe612c76))
+* release main ([#3](https://github.com/renebentes/release-please/issues/3)) ([9c152d5](https://github.com/renebentes/release-please/commit/9c152d5c0e43d4c16918c64b344c5305208dc21c))
+* release main ([#5](https://github.com/renebentes/release-please/issues/5)) ([58d0160](https://github.com/renebentes/release-please/commit/58d0160074cfc0a91f36b51bcd74d882d317af33))
+
 ## [1.3.0](https://github.com/renebentes/release-please/compare/v1.2.0...v1.3.0) (2026-03-27)
 
 
