@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/renebentes/release-please/compare/v1.0.0...v1.1.0) (2026-03-27)
+
+
+### Features
+
+* **jooml:** exiba a versão ([#4](https://github.com/renebentes/release-please/issues/4)) ([a5a051d](https://github.com/renebentes/release-please/commit/a5a051dc736e76f8a776508957cdae530ada5066))
+
 ## 1.0.0 (2026-03-27)
 
 
