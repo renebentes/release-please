@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/renebentes/release-please/compare/v1.1.0...v1.1.1) (2026-03-27)
+
+
+### Bug Fixes
+
+* **joomla:** mova script de build para projeto ([#10](https://github.com/renebentes/release-please/issues/10)) ([389a5db](https://github.com/renebentes/release-please/commit/389a5db9b209fe388494b37cc18b7599b1992f31))
+
 ## [1.1.0](https://github.com/renebentes/release-please/compare/v1.0.0...v1.1.0) (2026-03-27)
 
 
