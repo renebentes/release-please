@@ -9,4 +9,4 @@
 
 // No direct access.
 
-echo "Hello, World from Joomla!";
+echo "Hello, World!";
