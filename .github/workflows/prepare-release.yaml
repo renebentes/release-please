@@ -2,8 +2,6 @@ name: prepare-release
 
 on:
   pull_request:
-    branches:
-      - main
     types: [opened, reopened, synchronize]
 
 jobs:
