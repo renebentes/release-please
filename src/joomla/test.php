@@ -17,3 +17,4 @@ $version = new Version();
 
 echo 'Version: ' . $version->getFullVersion();
 echo 'Major Version: ' . $version::MAJOR_VERSION;
+echo 'Minor Version: ' . $version::MINOR_VERSION;
