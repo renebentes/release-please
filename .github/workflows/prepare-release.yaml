@@ -20,8 +20,8 @@ jobs:
           fetch-depth: 0
 
       - run: |
-          NEW_VERSION=$(jq -r '."src/joomla"' .release-please-manifest.json)
-          OLD_VERSION=$(git show origin/${{ github.base_ref }}:.release-please-manifest.json | jq -r '."src/joomla"')
+          NEW_VERSION=$(jq -r '."src/joomla"' .release-please-manifest.json 2>/dev/null)
+          OLD_VERSION=$(git show origin/${{ github.base_ref }}:.release-please-manifest.json | jq -r '."src/joomla"' 2>/dev/null)
 
           echo "Versão na Main: $OLD_VERSION"
           echo "Versão no PR: $NEW_VERSION"
