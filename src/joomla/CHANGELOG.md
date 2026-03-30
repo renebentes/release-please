@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/renebentes/release-please/compare/Joomla-v1.5.0...Joomla-v1.6.0) (2026-03-30)
+
+
+### Features
+
+* **joomla:** exiba a versão ([#20](https://github.com/renebentes/release-please/issues/20)) ([9264c7e](https://github.com/renebentes/release-please/commit/9264c7e168d0784861c1da1cc9288d29d0f84e0a))
+
 ## [1.5.0](https://github.com/renebentes/release-please/compare/Joomla-v1.4.0...Joomla-v1.5.0) (2026-03-27)
 
 
