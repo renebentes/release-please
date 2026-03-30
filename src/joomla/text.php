@@ -9,4 +9,8 @@
 
 // No direct access.
 
-echo "Hello, World!";
+use Joomla\Test\Version;
+
+$version = new Version();
+
+echo "Hello, World! From: " . $version->getFullVersion();
