@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - run: |
-          CHANGED=$(git diff origin/main...HEAD -- .release-please-manifest.json \
+          CHANGED=$(git diff .release-please-manifest.json \
           | grep -oE '^+' \
           | grep -oE '"[^"]+": "[^"]+"' \
           | sed 's/[",]//g')
