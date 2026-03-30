@@ -8,26 +8,36 @@ jobs:
   update-version-in-pr:
     if: startsWith(github.head_ref, 'release-please--')
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - uses: actions/checkout@v6
         with:
           ref: ${{ github.head_ref }}
+          fetch-depth: 0
 
       - run: |
-          CHANGED=$(git diff .release-please-manifest.json \
-          | grep '^+' \
-          | grep -oE '"[^"]+": "[^"]+"' \
-          | sed 's/[",]//g')
-          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
-        id: changes
+          NEW_VERSION=$(jq -r '."src/joomla"' .release-please-manifest.json)
+          OLD_VERSION=$(git show origin/${{ github.base_ref }}:.release-please-manifest.json | jq -r '."src/joomla"')
 
-      - if: ${{ contains(steps.changes.outputs.changed, 'src/joomla') }}
-        id: bump
+          echo "Versão na Main: $OLD_VERSION"
+          echo "Versão no PR: $NEW_VERSION"
+
+          if [ "$NEW_VERSION" != "$OLD_VERSION" ] && [ "$NEW_VERSION" != "null" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+        id: version_check
+
+      - if: ${{ steps.version_check.outputs.changed == 'true' }}
         run: |
-          VERSION=$(echo ${{ steps.changes.outputs.changed }} | sed -rn 's/src\/joomla:\s(.*)$/\1/p')
-          php ./src/joomla/build/bump.php -v $VERSION
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          php ./src/joomla/build/bump.php -v ${{ steps.version_check.outputs.version }}
 
       - uses: stefanzweifel/git-auto-commit-action@v7
+        if: ${{ steps.version_check.outputs.changed == 'true' }}
         with:
-          commit_message: "chore: version bump ${{ steps.bump.outputs.version }}"
+          commit_message: "chore: version bump ${{ steps.version_check.outputs.version }}"
