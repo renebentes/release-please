@@ -19,19 +19,3 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - if: ${{ steps.release.outputs['src/joomla--release_created'] == 'true' }}
-        run: |
-          php ./src/joomla/build/bump.php -v ${{ steps.release.outputs['src/joomla--version'] }}
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git commit -a -m 'chore: bump files [skip ci]'
-          git push origin ${{ github.head_ref }}
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
