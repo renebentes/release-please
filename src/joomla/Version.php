@@ -11,7 +11,7 @@ namespace Joomla\Test
 /**
  * Version information class.
  *
- * @since  __DEPLOY_VERSION__
+ * @since  1.8.1
  */
 final class Version
 {
@@ -19,25 +19,25 @@ final class Version
      * Major release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const MAJOR_VERSION = 0;
+    public const MAJOR_VERSION = 1;
 
     /**
      * Minor release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const MINOR_VERSION = 0;
+    public const MINOR_VERSION = 8;
 
     /**
      * Patch release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const PATCH_VERSION = 0;
+    public const PATCH_VERSION = 1;
 
     /**
      * Extra release version info.
@@ -46,39 +46,39 @@ final class Version
      * For example, for 1.0.0 when this is set to 'dev' the version string will be `1.0.0-dev`.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const EXTRA_VERSION = 'dev';
+    public const EXTRA_VERSION = '';
 
     /**
      * Development status.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const DEV_STATUS = 'Development';
+    public const DEV_STATUS = 'Stable';
 
     /**
      * Release date.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const RELEASE_DATE = '17-February-2026';
+    public const RELEASE_DATE = '30-March-2026';
 
     /**
      * Release time.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
-    public const RELEASE_TIME = '16:01';
+    public const RELEASE_TIME = '19:14';
 
     /**
      * Release timezone.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  1.8.1
      */
     public const RELEASE_TIMEZONE = 'UTC';
 
