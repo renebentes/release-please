@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/renebentes/release-please/compare/Joomla-v1.7.0...Joomla-v1.8.0) (2026-03-30)
+
+
+### Features
+
+* **joomla:** crie nova versão ([#29](https://github.com/renebentes/release-please/issues/29)) ([f56007c](https://github.com/renebentes/release-please/commit/f56007ce87a9a82d8b8fe8af37ab3ec810de64ac))
+
 ## [1.7.0](https://github.com/renebentes/release-please/compare/Joomla-v1.6.0...Joomla-v1.7.0) (2026-03-30)
 
 
