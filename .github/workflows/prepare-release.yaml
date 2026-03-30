@@ -1,0 +1,35 @@
+name: prepare-release
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, reopened, synchronize]
+
+jobs:
+  update-version-in-pr:
+    if: startsWith(github.head_ref, 'release-please--')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+
+      - run: |
+          CHANGED=$(git diff origin/main...HEAD .release-please-manifest.json \
+          | grep -oE '^+' \
+          | grep -oE '"[^"]+": "[^"]+"' \
+          | sed 's/[",]//g')
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+        id: changes
+
+      - if: ${{ contains(steps.changes.outputs.changed, 'src/joomla') }}
+        id: bump
+        run: |
+          VERSION=$(echo ${{ steps.changes.outputs.changed }} | sed -rn 's/src\/joomla:\s(.*)$/\1/p')
+          php ./src/joomla/build/bump.php -v $VERSION
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: version bump ${{ steps.bump.outputs.version }}"
