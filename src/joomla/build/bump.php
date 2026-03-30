@@ -201,8 +201,8 @@ foreach ($packageJsonFiles as $packageJsonFile) {
 foreach ($readMeFiles as $readMeFile) {
     if (file_exists($rootPath . $readMeFile)) {
         $fileContents = file_get_contents($rootPath . $readMeFile);
-        $fileContents = preg_replace('#Test v[0-9]+\.[0-9]', 'Test v' . $version['main'], $fileContents);
-        $fileContents = preg_replace('#Test_v[0-9]+\.[0-9]', 'Test_v' . $version['main'], $fileContents);
+        $fileContents = preg_replace('#Test v[0-9]+\.[0-9]#', 'Test v' . $version['main'], $fileContents);
+        $fileContents = preg_replace('#Test_v[0-9]+\.[0-9]#', 'Test_v' . $version['main'], $fileContents);
         file_put_contents($rootPath . $readMeFile, $fileContents);
     }
 }
