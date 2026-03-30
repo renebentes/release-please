@@ -16,3 +16,4 @@ use Joomla\Test\Version;
 $version = new Version();
 
 echo 'Version: ' . $version->getFullVersion();
+echo 'Major Version: ' . $version::MAJOR_VERSION;
