@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/renebentes/release-please/compare/Joomla-v1.6.0...Joomla-v1.7.0) (2026-03-30)
+
+
+### Features
+
+* remova arquivo ([#23](https://github.com/renebentes/release-please/issues/23)) ([102cca9](https://github.com/renebentes/release-please/commit/102cca9d3ddd108d9cc00a53d69bf6680d0d90d3))
+
 ## [1.6.0](https://github.com/renebentes/release-please/compare/Joomla-v1.5.0...Joomla-v1.6.0) (2026-03-30)
 
 
