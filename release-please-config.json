@@ -4,11 +4,22 @@
   "separate-pull-requests": true,
   "packages": {
     ".": {
-      "exclude-paths": ["src/joomla"]
+      "exclude-paths": ["src/joomla", "src/dotnet"]
     },
     "src/joomla": {
       "component": "Joomla",
       "release-type": "php"
+    },
+    "src/dotnet": {
+      "component": "MyLib",
+      "release-type": "simple",
+      "extra-files": [
+        {
+          "type": "xml",
+          "path": "MyLib/MyLib.csproj",
+          "xpath": "//Version"
+        }
+      ]
     }
   }
 }
