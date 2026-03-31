@@ -17,7 +17,7 @@
         {
           "type": "xml",
           "path": "MyLib/MyLib.csproj",
-          "xpath": "//Version"
+          "xpath": "//PropertyGroup/Version"
         }
       ]
     }
