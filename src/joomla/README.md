@@ -1,7 +1,7 @@
 # test
 
-> Descrição Test v0.0
-> Test_v0.0
+> Descrição Test v1.8
+> Test_v1.8
 
 ## Tecnologias Utilizadas
 

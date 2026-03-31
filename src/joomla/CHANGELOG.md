@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.2](https://github.com/renebentes/release-please/compare/Joomla-v1.8.1...Joomla-v1.8.2) (2026-03-31)
+
+
+### Bug Fixes
+
+* corrija a expressão regular para substituir a versão ([#38](https://github.com/renebentes/release-please/issues/38)) ([0d5c786](https://github.com/renebentes/release-please/commit/0d5c786665c1c56c6e8cbd7b4b5db227a1e87d2b))
+* exiba a minor version ([#36](https://github.com/renebentes/release-please/issues/36)) ([c53fdf7](https://github.com/renebentes/release-please/commit/c53fdf73ad578d8fe2c5a331ea82c9b43abcfc49))
+
 ## [1.8.1](https://github.com/renebentes/release-please/compare/Joomla-v1.8.0...Joomla-v1.8.1) (2026-03-30)
 
 
