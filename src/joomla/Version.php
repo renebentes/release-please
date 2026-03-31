@@ -37,7 +37,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const PATCH_VERSION = 1;
+    public const PATCH_VERSION = 2;
 
     /**
      * Extra release version info.
@@ -64,7 +64,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_DATE = '30-March-2026';
+    public const RELEASE_DATE = '31-March-2026';
 
     /**
      * Release time.
@@ -72,7 +72,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_TIME = '19:14';
+    public const RELEASE_TIME = '00:02';
 
     /**
      * Release timezone.
