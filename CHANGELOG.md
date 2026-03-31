@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/renebentes/release-please/compare/v1.3.0...v1.3.1) (2026-03-31)
+
+
+### Bug Fixes
+
+* **.NET:** corrija falta de tag Version ([#42](https://github.com/renebentes/release-please/issues/42)) ([c732542](https://github.com/renebentes/release-please/commit/c732542d0020db4f047bbb050ed2b38be663265b))
+
 ## [1.3.0](https://github.com/renebentes/release-please/compare/v1.2.1...v1.3.0) (2026-03-31)
 
 
