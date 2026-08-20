@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-beta.1](https://github.com/renebentes/release-please/compare/v1.3.1...v2.0.0-beta.1) (2026-08-20)
+
+
+### Continuous Integration
+
+* **release-please:** configure versões de pré-lançamento ([#45](https://github.com/renebentes/release-please/issues/45)) ([0a8f332](https://github.com/renebentes/release-please/commit/0a8f3326bb7b3cd7b9340a68c04f85c41506e362))
+
 ## [1.3.1](https://github.com/renebentes/release-please/compare/v1.3.0...v1.3.1) (2026-03-31)
 
 
