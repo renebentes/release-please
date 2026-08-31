@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/renebentes/release-please/compare/Joomla-v1.8.2...Joomla-v2.0.0) (2026-08-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* converta para projeto único PHP ([#47](https://github.com/renebentes/release-please/issues/47))
+
+### Miscellaneous Chores
+
+* converta para projeto único PHP ([#47](https://github.com/renebentes/release-please/issues/47)) ([1648f7a](https://github.com/renebentes/release-please/commit/1648f7a142aad307890b24794b3a8ccd9e17f4b7))
+
 ## [1.8.2](https://github.com/renebentes/release-please/compare/Joomla-v1.8.1...Joomla-v1.8.2) (2026-03-31)
 
 
