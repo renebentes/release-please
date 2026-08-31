@@ -1,26 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "release-type": "simple",
+  "release-type": "php",
   "separate-pull-requests": true,
   "packages": {
-    ".": {
-      "exclude-paths": ["src/joomla", "src/dotnet"]
-    },
-    "src/joomla": {
-      "component": "Joomla",
-      "release-type": "php"
-    },
-    "src/dotnet": {
-      "component": "MyLib",
-      "release-type": "simple",
-      "extra-files": [
-        {
-          "type": "xml",
-          "path": "MyLib/MyLib.csproj",
-          "xpath": "//PropertyGroup/Version"
-        }
-      ]
-    }
+    ".": {}
   },
-  "prerelease": true
+  "extra-files": [
+    { "type": "json", "path": "package.json", "jsonpath": "$.version" }
+  ]
 }
