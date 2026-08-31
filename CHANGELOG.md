@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0-beta.1](https://github.com/renebentes/release-please/compare/v2.0.0-beta.1...v3.0.0-beta.1) (2026-08-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* converta para projeto único PHP ([#47](https://github.com/renebentes/release-please/issues/47))
+
+### Miscellaneous Chores
+
+* converta para projeto único PHP ([#47](https://github.com/renebentes/release-please/issues/47)) ([1648f7a](https://github.com/renebentes/release-please/commit/1648f7a142aad307890b24794b3a8ccd9e17f4b7))
+
 ## [2.0.0-beta.1](https://github.com/renebentes/release-please/compare/v1.3.1...v2.0.0-beta.1) (2026-08-20)
 
 
