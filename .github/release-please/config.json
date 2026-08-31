@@ -3,7 +3,9 @@
   "release-type": "php",
   "separate-pull-requests": true,
   "packages": {
-    ".": {}
+    "src/joomla": {
+      "component": "Joomla"
+    }
   },
   "extra-files": [
     { "type": "json", "path": "package.json", "jsonpath": "$.version" }
