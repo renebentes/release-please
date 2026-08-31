@@ -72,7 +72,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_TIME = '18:42';
+    public const RELEASE_TIME = '18:47';
 
     /**
      * Release timezone.
