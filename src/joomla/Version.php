@@ -21,7 +21,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const MAJOR_VERSION = 2;
+    public const MAJOR_VERSION = 3;
 
     /**
      * Minor release version.
@@ -37,7 +37,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const PATCH_VERSION = 0;
+    public const PATCH_VERSION = 1;
 
     /**
      * Extra release version info.
@@ -48,7 +48,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const EXTRA_VERSION = '';
+    public const EXTRA_VERSION = 'beta.1';
 
     /**
      * Development status.
@@ -56,7 +56,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const DEV_STATUS = 'Stable';
+    public const DEV_STATUS = 'Beta';
 
     /**
      * Release date.
@@ -64,7 +64,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_DATE = '31-August-2026';
+    public const RELEASE_DATE = '1-September-2026';
 
     /**
      * Release time.
@@ -72,7 +72,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_TIME = '18:47';
+    public const RELEASE_TIME = '11:47';
 
     /**
      * Release timezone.

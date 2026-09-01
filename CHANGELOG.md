@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1-beta.1](https://github.com/renebentes/release-please/compare/v3.0.0-beta.1...v3.0.1-beta.1) (2026-09-01)
+
+
+### Bug Fixes
+
+* corrija pacote de referência ([#49](https://github.com/renebentes/release-please/issues/49)) ([006ee90](https://github.com/renebentes/release-please/commit/006ee9089182bd6a5bb43eba6bc8617953e2cc50))
+
 ## [3.0.0-beta.1](https://github.com/renebentes/release-please/compare/v2.0.0-beta.1...v3.0.0-beta.1) (2026-08-31)
 
 
