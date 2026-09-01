@@ -37,7 +37,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const PATCH_VERSION = 1;
+    public const PATCH_VERSION = 2;
 
     /**
      * Extra release version info.
@@ -48,7 +48,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const EXTRA_VERSION = 'beta.1';
+    public const EXTRA_VERSION = '';
 
     /**
      * Development status.
@@ -56,7 +56,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const DEV_STATUS = 'Beta';
+    public const DEV_STATUS = 'Stable';
 
     /**
      * Release date.
@@ -72,7 +72,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_TIME = '11:47';
+    public const RELEASE_TIME = '12:39';
 
     /**
      * Release timezone.
