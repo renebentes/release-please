@@ -11,34 +11,38 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-      id-token: write
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout code
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - run: |
-          NEW_VERSION=$(jq -r '."src/joomla"' .github/release-please/manifest.json 2>/dev/null)
-          OLD_VERSION=$(git show origin/${{ github.base_ref }}:.github/release-please/manifest.json | jq -r '."src/joomla"' 2>/dev/null)
+      - name: Determine release version
+        run: |
+          VERSION=$(jq -r '.["."]' .github/release-please/manifest.json 2>/dev/null)
 
-          echo "Versão na Main: $OLD_VERSION"
-          echo "Versão no PR: $NEW_VERSION"
+          if [[ -z "$VERSION" || "$VERSION" == "null" ]]; then
+            echo "::error::Unable to determine release version"
+            exit 1
+          fi
 
-          if [ "$NEW_VERSION" != "$OLD_VERSION" ] && [ "$NEW_VERSION" != "null" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          if git log -1 --pretty=%s | grep -q "^chore: bump v${VERSION} on files$"; then
+            echo "Version bump already applied."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Version bump required: $VERSION"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           fi
         id: version_check
 
-      - if: ${{ steps.version_check.outputs.changed == 'true' }}
+      - name: Bump version
         run: |
           php ./src/joomla/build/bump.php -v ${{ steps.version_check.outputs.version }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v7
-        if: ${{ steps.version_check.outputs.changed == 'true' }}
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: version bump ${{ steps.version_check.outputs.version }}"
+          commit_message: "chore: bump v${{ steps.version_check.outputs.version }} on files"
