@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/renebentes/release-please/compare/v3.0.1-beta.1...v3.0.2) (2026-09-01)
+
+
+### Bug Fixes
+
+* restrinja a execução do fluxo ([#55](https://github.com/renebentes/release-please/issues/55)) ([a0cf411](https://github.com/renebentes/release-please/commit/a0cf4113c61a9e7e6948aeda55d34e3a77b6bb5a))
+
 ## [3.0.1-beta.1](https://github.com/renebentes/release-please/compare/v3.0.0-beta.1...v3.0.1-beta.1) (2026-09-01)
 
 
