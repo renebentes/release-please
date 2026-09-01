@@ -49,6 +49,11 @@ $readMeFiles = [
     '/README.txt',
 ];
 
+$packageJsonFiles = [
+    '/package.json',
+    '/composer.json'
+];
+
 /*
  * Change copyright date exclusions.
  * Some systems may try to scan the .git directory, exclude it.
