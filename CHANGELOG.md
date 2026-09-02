@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/renebentes/release-please/compare/v3.0.2...v3.1.0) (2026-09-02)
+
+
+### Features
+
+* exiba versão patch ([#61](https://github.com/renebentes/release-please/issues/61)) ([b2c1daa](https://github.com/renebentes/release-please/commit/b2c1daa79f81a5c68fb5977dead57c7d98c2042c))
+
 ## [3.0.2](https://github.com/renebentes/release-please/compare/v3.0.1-beta.1...v3.0.2) (2026-09-01)
 
 
