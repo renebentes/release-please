@@ -29,7 +29,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const MINOR_VERSION = 0;
+    public const MINOR_VERSION = 1;
 
     /**
      * Patch release version.
@@ -37,7 +37,7 @@ final class Version
      * @var    integer
      * @since  1.8.1
      */
-    public const PATCH_VERSION = 2;
+    public const PATCH_VERSION = 0;
 
     /**
      * Extra release version info.
@@ -64,7 +64,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_DATE = '1-September-2026';
+    public const RELEASE_DATE = '2-September-2026';
 
     /**
      * Release time.
@@ -72,7 +72,7 @@ final class Version
      * @var    string
      * @since  1.8.1
      */
-    public const RELEASE_TIME = '12:39';
+    public const RELEASE_TIME = '19:46';
 
     /**
      * Release timezone.
