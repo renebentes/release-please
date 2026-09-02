@@ -21,4 +21,4 @@ jobs:
           manifest-file: ".github/release-please/manifest.json"
           token: ${{ secrets.PAT_RELEASE_PLEASE }}
       
-      - run: echo ${{ fromJson(steps.release.outputs) }}
+      - run: echo ${{ steps.release.outputs }}
